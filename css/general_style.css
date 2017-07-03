@@ -1,0 +1,81 @@
+
+.post {
+
+background:#EDEAE3;
+border:1px #ccc solid; 
+padding:5px;
+margin-bottom:25px;
+}
+
+.post img {
+
+width: 100%;
+padding-bottom:5px;
+}
+
+.post-content {
+   
+   padding:10px;
+   box-sizing:border-box;
+}
+.post h4 {
+   
+   margin:0;
+   padding:0;
+}
+
+.post small {
+
+ background:#36424a;
+ color:white;
+ display:block;
+ margin:10px 0;
+ padding:5px 10px;
+}
+
+.post ul {
+
+ list-style:none;
+ left:-20px;
+ position:relative;
+}
+
+.admin_group {
+
+display:block;
+left:50px;
+top:50px;
+position:relative;
+padding:5px; 
+
+}
+
+.dropdown {
+  
+  padding:10px; 
+  
+  position: absolute;
+z-index : 999; //some high value
+ 
+  
+}
+
+.dropdown-toggle {
+ 
+ padding:10px;
+ 
+}
+
+.glyphicon-hand-down {
+
+ position:absolute;
+ top:16px;
+ left:260px;
+}
+
+.dropdown li {
+ position: relative; 
+ padding:10px; 
+ width: 305px;
+z-index: 1; //some low value
+}
